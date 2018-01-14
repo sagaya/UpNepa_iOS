@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		9F0B0045200B6AF800240691 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B0044200B6AF800240691 /* AppDelegate.swift */; };
-		9F0B0047200B6AF800240691 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B0046200B6AF800240691 /* ViewController.swift */; };
-		9F0B004A200B6AF800240691 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0B0048200B6AF800240691 /* Main.storyboard */; };
+		9F0B0047200B6AF800240691 /* LoginController+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B0046200B6AF800240691 /* LoginController+Views.swift */; };
 		9F0B004C200B6AF800240691 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0B004B200B6AF800240691 /* Assets.xcassets */; };
 		9F0B004F200B6AF800240691 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0B004D200B6AF800240691 /* LaunchScreen.storyboard */; };
+		9F0B005B200B6BD000240691 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B005A200B6BD000240691 /* LoginController.swift */; };
+		9F0B005D200B6C8200240691 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B005C200B6C8200240691 /* Constant.swift */; };
+		9F86FBC8200B97FF00587BE5 /* insomnia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F86FBC7200B97FF00587BE5 /* insomnia.swift */; };
+		9FD00A80200B7DD400DC3DE5 /* UpdatesController+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD00A7F200B7DD400DC3DE5 /* UpdatesController+Views.swift */; };
+		9FD00A82200B7DE700DC3DE5 /* UpdatesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD00A81200B7DE700DC3DE5 /* UpdatesController.swift */; };
+		C715302280404E84A75F6AC7 /* Pods_UpNepa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548407D500FE97744616C663 /* Pods_UpNepa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0005D43D99BAC6602AE44875 /* Pods-UpNepa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpNepa.release.xcconfig"; path = "Pods/Target Support Files/Pods-UpNepa/Pods-UpNepa.release.xcconfig"; sourceTree = "<group>"; };
+		548407D500FE97744616C663 /* Pods_UpNepa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UpNepa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89655BA7F77068EACE8B3AEF /* Pods-UpNepa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UpNepa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UpNepa/Pods-UpNepa.debug.xcconfig"; sourceTree = "<group>"; };
 		9F0B0041200B6AF800240691 /* UpNepa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpNepa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F0B0044200B6AF800240691 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F0B0046200B6AF800240691 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F0B0049200B6AF800240691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F0B0046200B6AF800240691 /* LoginController+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginController+Views.swift"; sourceTree = "<group>"; };
 		9F0B004B200B6AF800240691 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F0B004E200B6AF800240691 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F0B0050200B6AF800240691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F0B005A200B6BD000240691 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		9F0B005C200B6C8200240691 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9F86FBC7200B97FF00587BE5 /* insomnia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = insomnia.swift; sourceTree = "<group>"; };
+		9FD00A7F200B7DD400DC3DE5 /* UpdatesController+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UpdatesController+Views.swift"; sourceTree = "<group>"; };
+		9FD00A81200B7DE700DC3DE5 /* UpdatesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C715302280404E84A75F6AC7 /* Pods_UpNepa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1649CA1D4F9B87BB300C4523 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				548407D500FE97744616C663 /* Pods_UpNepa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57709DF1824517030A011B8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89655BA7F77068EACE8B3AEF /* Pods-UpNepa.debug.xcconfig */,
+				0005D43D99BAC6602AE44875 /* Pods-UpNepa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9F0B0038200B6AF800240691 = {
 			isa = PBXGroup;
 			children = (
 				9F0B0043200B6AF800240691 /* UpNepa */,
 				9F0B0042200B6AF800240691 /* Products */,
+				57709DF1824517030A011B8E /* Pods */,
+				1649CA1D4F9B87BB300C4523 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,50 @@
 		9F0B0043200B6AF800240691 /* UpNepa */ = {
 			isa = PBXGroup;
 			children = (
-				9F0B0044200B6AF800240691 /* AppDelegate.swift */,
-				9F0B0046200B6AF800240691 /* ViewController.swift */,
-				9F0B0048200B6AF800240691 /* Main.storyboard */,
-				9F0B004B200B6AF800240691 /* Assets.xcassets */,
-				9F0B004D200B6AF800240691 /* LaunchScreen.storyboard */,
 				9F0B0050200B6AF800240691 /* Info.plist */,
+				9F0B0059200B6B4100240691 /* Models */,
+				9F0B0058200B6B3800240691 /* Helpers */,
+				9F0B0057200B6B3200240691 /* Controllers */,
+				9F0B0056200B6B2200240691 /* Views */,
 			);
 			path = UpNepa;
+			sourceTree = "<group>";
+		};
+		9F0B0056200B6B2200240691 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F0B0046200B6AF800240691 /* LoginController+Views.swift */,
+				9FD00A7F200B7DD400DC3DE5 /* UpdatesController+Views.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F0B0057200B6B3200240691 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F0B005A200B6BD000240691 /* LoginController.swift */,
+				9FD00A81200B7DE700DC3DE5 /* UpdatesController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9F0B0058200B6B3800240691 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9F86FBC7200B97FF00587BE5 /* insomnia.swift */,
+				9F0B004B200B6AF800240691 /* Assets.xcassets */,
+				9F0B004D200B6AF800240691 /* LaunchScreen.storyboard */,
+				9F0B0044200B6AF800240691 /* AppDelegate.swift */,
+				9F0B005C200B6C8200240691 /* Constant.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		9F0B0059200B6B4100240691 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F0B0053200B6AF800240691 /* Build configuration list for PBXNativeTarget "UpNepa" */;
 			buildPhases = (
+				09D8DE86464F8B2908DD048C /* [CP] Check Pods Manifest.lock */,
 				9F0B003D200B6AF800240691 /* Sources */,
 				9F0B003E200B6AF800240691 /* Frameworks */,
 				9F0B003F200B6AF800240691 /* Resources */,
+				C8E6D683481E627F6F24111D /* [CP] Embed Pods Frameworks */,
+				7ADCAC80F086B6D253AB7E57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,33 +196,89 @@
 			files = (
 				9F0B004F200B6AF800240691 /* LaunchScreen.storyboard in Resources */,
 				9F0B004C200B6AF800240691 /* Assets.xcassets in Resources */,
-				9F0B004A200B6AF800240691 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09D8DE86464F8B2908DD048C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UpNepa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ADCAC80F086B6D253AB7E57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UpNepa/Pods-UpNepa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E6D683481E627F6F24111D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UpNepa/Pods-UpNepa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UpNepa/Pods-UpNepa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F0B003D200B6AF800240691 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F0B0047200B6AF800240691 /* ViewController.swift in Sources */,
+				9F0B0047200B6AF800240691 /* LoginController+Views.swift in Sources */,
+				9FD00A80200B7DD400DC3DE5 /* UpdatesController+Views.swift in Sources */,
+				9F0B005B200B6BD000240691 /* LoginController.swift in Sources */,
 				9F0B0045200B6AF800240691 /* AppDelegate.swift in Sources */,
+				9F86FBC8200B97FF00587BE5 /* insomnia.swift in Sources */,
+				9FD00A82200B7DE700DC3DE5 /* UpdatesController.swift in Sources */,
+				9F0B005D200B6C8200240691 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F0B0048200B6AF800240691 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F0B0049200B6AF800240691 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F0B004D200B6AF800240691 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,11 +399,13 @@
 		};
 		9F0B0054200B6AF800240691 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89655BA7F77068EACE8B3AEF /* Pods-UpNepa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9HNZAYA8U;
 				INFOPLIST_FILE = UpNepa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cosmo.UpNepa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +416,13 @@
 		};
 		9F0B0055200B6AF800240691 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0005D43D99BAC6602AE44875 /* Pods-UpNepa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R9HNZAYA8U;
 				INFOPLIST_FILE = UpNepa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cosmo.UpNepa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
